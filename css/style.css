@@ -500,6 +500,41 @@ a {
   line-height: 1.7;
 }
 
+.course-list {
+  margin: 1.4rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.course-list li {
+  border-bottom: 1px solid #e8edf4;
+}
+
+.course-list a {
+  display: flex;
+  flex-direction: column;
+  gap: 0.18rem;
+  padding: 0.65rem 0;
+  color: var(--ink);
+  text-decoration: none;
+}
+
+.course-list a:hover span,
+.course-list a:focus-visible span {
+  color: #2563eb;
+}
+
+.course-list a span {
+  font-size: 0.9rem;
+  font-weight: 650;
+  line-height: 1.4;
+}
+
+.course-list a small {
+  color: var(--muted);
+  font-size: 0.72rem;
+}
+
 .projects-section {
   background: var(--paper);
 }
