@@ -420,7 +420,11 @@ a {
 }
 
 .experience-section {
-  background: #fff;
+  background-color: #fff;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.88), rgba(255, 255, 255, 0.88)), url("../images/Future artificial intelligence robot and cyborg_ _ Premium Photo.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .degree-card {
@@ -543,6 +547,7 @@ a {
 }
 
 .projects-section {
+  padding-top: 72px;
   background: var(--paper);
 }
 
@@ -732,6 +737,10 @@ a {
 
   .section-pad {
     padding: 76px 0;
+  }
+
+  .projects-section {
+    padding-top: 46px;
   }
 
   .about-video {
