@@ -230,6 +230,7 @@ a {
 
 .about-section {
   background: #fff;
+  padding-bottom: 70px;
 }
 
 .about-video-wrap {
@@ -309,6 +310,7 @@ a {
 
 .skills-section {
   background: var(--paper);
+  padding-top: 70px;
 }
 
 .section-heading {
@@ -737,6 +739,14 @@ a {
 
   .section-pad {
     padding: 76px 0;
+  }
+
+  .about-section {
+    padding-bottom: 48px;
+  }
+
+  .skills-section {
+    padding-top: 48px;
   }
 
   .projects-section {
